@@ -1,0 +1,404 @@
+*{
+    box-sizing: border-box;
+}
+/* /* header */
+
+
+.container{
+    min-width: fit-content;
+    background-image: url(images/coffee_image.png);
+    background-size: cover;
+    color: white;
+}
+.one{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.one h3{
+    margin-top: 20px;
+    font-size: 35px;
+    font-family:clicker script;
+    cursor: pointer;
+
+}
+.one ul{
+    margin-top: 20px;
+    display: flex;
+    list-style: none;
+}
+.one ul li{
+    display: inline-block;
+    margin: 10px 10px;
+    color: white;
+}
+.one ul li a{
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+    color: white;
+}
+.signup-btn{
+    margin-top: 20px;
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    color: black;
+    background-color: orange;
+    border-radius: 6px;
+    font-size: 14px;
+    list-style: none;
+}
+.cafe{
+    text-align: left;
+    padding-top: 50px;
+    margin-left: 80px;
+    font-size: 22px;
+
+}
+.first-h1{
+    font-size: 70px;
+    margin-left: 80px;
+}
+.p-cafe{
+   font-size: 20px; 
+   margin-left: 80px;
+}
+.order-btn{
+    font-size:20px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+    background-color: orange;
+    padding: 8px 16px;
+    border-radius: 20px;
+    margin-bottom: 1px;
+    
+}
+.order-btn:hover{
+    background-color: white;
+    min-width: none;
+}
+
+/* main */
+
+ .two{
+    display: flex;
+ }
+.two .santana h1{
+    color: rgb(136, 70, 22);
+    font-size: 55px;
+    margin: 20px 50px;
+}
+.two .santana p{
+    font-size: 20px;
+    color: gray;
+    margin: 20px 50px;
+}
+
+.two .cup{
+    padding-left:20%;
+}
+
+.two .santana .learn-more-btn{
+    display: inline-block;
+    color: black;
+    background-color: orange;
+    text-decoration: none;
+    padding: 8px 16px;
+    border-radius:20px ;
+    margin: 20px 50px;
+}
+.last-blast{
+    text-align: left;
+}
+.third h1{
+    text-align: center;
+    font-weight: bold;
+    font-size: 55px;
+    color: rgb(136, 70, 22);
+}
+.pass{
+    text-align: center;
+    color: gray;
+}
+.coffee-menu{
+    display: flex;
+    gap: 20px;
+    padding: 40px 20px;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    max-width: 1200px;
+    padding: 0 20px;
+
+}
+.coffee-card h3{
+    color: rgb(136, 70, 22);
+    text-align: center;
+}
+.coffee-card p{
+    text-align: center;
+
+}
+.coffee-card.order-btn{
+    text-align: center;
+}
+.coffee-card{
+    background-color: #fff;
+    padding: 20px;
+    width: 22%;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow:o 4px 10px rgba(0,0,0,0.1);
+    transition:transform 0.3s;
+}
+.menu-btn{
+    margin-top: 10px;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: orange;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.fourth{
+    background-image: url(images/Group\ 36.png);
+    color: white;
+    min-height: 50vh;
+    display: flex;
+    justify-content: space-around;
+}
+.cup-img{
+    margin-left: 40px;
+}
+.chapter{
+    color: white;
+}
+.headpts{
+    font-size:x-large;
+    margin-left: 70px;
+    justify-content: center;
+    margin-top: 20%;
+}
+.fourth p{
+    margin-left:70px ;
+    font-size: large;
+
+}
+.fourth .order-btn{
+text-align: center;
+}
+.fifth{
+    display: flex;
+    gap: 20px;
+    padding: 40px 20px;
+    margin: 40px 30%;
+    max-width: 1200px;
+    padding: 0 20px;
+}
+.beans{
+    text-align: center;
+}
+.beans h3{
+    color: rgb(136, 70, 22);
+    text-align: center;
+}
+.beans p{
+    color: gray;
+    text-align: center;
+}
+.ours{
+    text-align: center;
+}
+.ours p{
+    color: gray;
+    font-size: medium;
+}
+.ours h3{
+    color: rgb(136, 70, 22);
+    font-size: larger;
+}
+.join-btn{
+    background-color: orange;
+    margin-top: 10px;
+    display: inline block;
+    padding: 8px 16px;
+    color: black;
+    border-radius: 20px;
+    text-decoration: none;
+}
+.day{
+    text-align: center;
+}
+.day h1{
+    color: rgb(136, 70, 22);
+    font-size: 45px;
+}
+.day p{
+    color: gray;
+    font-size: medium;
+}
+
+/* feedback */
+
+.testimonial-section{
+    background: #fff8f1;
+    padding: 50px 20px;
+    position: relative;
+    text-align: center;
+    
+}
+.testimonial-container{
+    display: flex;
+    justify-content: space-between;
+    gap: 30px;
+    max-width:1100px;
+    margin: auto;
+    flex-wrap: wrap;
+}
+.sir-jonny{
+    text-align: center;
+}
+.sir-jonny img{
+    width: 100px;
+    height: 100p;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.sir-jonny h3{
+    color: rgb(136, 70, 22);
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.sir-jonny p{
+    font-size: 14px;
+    color:gray;
+}
+.sir h1{
+    font-size: 45px;
+    color: rgb(136, 70, 22);
+    margin-bottom: 20px;
+}
+ .subtitle{
+    font-size: 16px;
+    color: gray;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.sir .quote{
+    font-size: 15px;
+    line-height: 1.6;
+    color: gray;
+    border: 10px;
+    border-color: black;
+    text-align: center;
+}
+.coffee-splashes{
+    position: absolute;
+    left:0;
+    
+    
+}
+.coffee-splashes-top{
+    top: 0;
+    text-align: left;
+
+}
+.coffee-splashes-bottom{
+    bottom: 0;
+    text-align: right;
+}
+
+/* footer */
+
+.footer1{
+    background-image: url(images/Group\ 36.png);
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+.subs{
+    background-color: orange;
+    color: black;
+    border: none;
+    font-size: 18px;
+    box-sizing: border-box;
+    border-radius: 1px;
+    padding: 2px 2px;
+    display: inline-block;
+
+}
+.winds{
+    margin-right: 30%;
+    margin-left: 10%;
+}
+.winds h1{
+    font-size: 45px;
+    text-align: center;
+}
+.winds p{
+    font-size: 20px;
+}
+.so{
+    background-image: url(images/Rectangle\ 16.png);
+
+}
+.last-part{
+    
+    display: flex;
+    justify-content: space-between;
+    color: white;
+}
+.words h3{
+    font-size: 34px;
+    margin-left: 5%;
+}
+.words{
+    font-size: medium;
+    margin-left: 5%;
+}
+.about h3{
+    font-size: 34px;
+}
+.about ul{
+    list-style: none;
+    width: 100%;
+    font-weight: 10Px;
+    font-size: 18px;
+}
+.about ul li a{
+    text-decoration: none;
+    color: white;
+}
+.company{
+    font-size: 34px;
+}
+.company ul{
+    list-style: none;
+    font-size: 18px;
+}
+.company ul li a{
+    text-decoration: none;
+    color: white;
+
+}
+.contact{
+    font-size: 34px;
+}
+.contact ul{
+    text-decoration: none;
+    list-style: none;
+
+    font-size: 18px;
+}
+
+
+
+
+
+
+
+
+
+
